@@ -30,11 +30,11 @@ if (flutterVersionName == null) {
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'com.google.gms.google-services'
-//apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    namespace "com.example.auth_app"
-    compileSdkVersion 33
+    namespace "com.mendojimenez.flutterauthapp"
+    compileSdkVersion 34
     //ndkVersion flutter.ndkVersion
 
     compileOptions {
